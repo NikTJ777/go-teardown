@@ -10,6 +10,8 @@ import (
 var teardownLists = make(map[string][]func())
 var diagnosticTeardownLists = make(map[string][]func())
 
+const ALWAYS_RUN_DIAGNOSTIC_TEARDOWNS = "ALWAYS_RUN_DIAGNOSTIC_TEARDOWNS"
+
 /** Exported var - initialised from the EnvVar, but can be reset in code if desired */
 var AlwaysRunDiagnosticTeardowns = strings.EqualFold(os.Getenv(ALWAYS_RUN_DIAGNOSTIC_TEARDOWNS), "true")
 

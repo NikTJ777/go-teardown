@@ -1,7 +1,5 @@
-module github.com/niktj777/teardown/v1
+module niktj777/teardown
 
-go 1.14
+go 1.16
 
-require (
-	github.com/stretchr/testify v1.6.1
-)
+require github.com/stretchr/testify v1.7.0

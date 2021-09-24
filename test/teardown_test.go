@@ -3,7 +3,8 @@ package test
 import (
 	"testing"
 
-	"github.com/niktj777/go-teardown/v1/teardown"
+	"niktj777/teardown/teardown"
+
 	"github.com/stretchr/testify/require"
 )
 
